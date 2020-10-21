@@ -7,9 +7,9 @@ public class LightFlicker : MonoBehaviour
 {
     [SerializeField] private UnityEngine.Experimental.Rendering.Universal.Light2D _light;
 
-    float duration = 0.1f;
-    Color color0 = Color.red;
-    Color color1 = Color.blue;
+    public float duration = 1f;
+    public Color color0 = Color.red;
+    public Color color1 = Color.blue;
     // Start is called before the first frame update
     void Start()
     {
